@@ -19,6 +19,7 @@
 		6E5297AAB51244621C5D8EB567B18C7D /* SSPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B69811247ABCA046C9A87EFB09517D6 /* SSPullToRefresh-dummy.m */; };
 		7B78E79759214E44ACF67BE92C6C97CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F1F41F3D27E1F8750BD45DC3E26E49 /* Foundation.framework */; };
 		7FFD9FC2EF67760E8C19D63D2696EDE0 /* SSPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFA9431966F9DD46EEA822A2DA149AB /* SSPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		805553B81F612F3A00E1BB19 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805553B71F612F3A00E1BB19 /* PullToRefresh.swift */; };
 		9D08B50E067B598E3DDD331EB2D33EAE /* Pods-PaginationUIManager-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B96F0B1EBFB5FD33C518EC0FE81B4B /* Pods-PaginationUIManager-Example-dummy.m */; };
 		ABB847F5FA6C61AD0E1FB2FA9E10BC4C /* SSPullToRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65590FA46CEB68646E03AF62F028D408 /* SSPullToRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE0CA5740454E965A73FA88FC45140FA /* Pods-PaginationUIManager-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72328183E2BA425E6A04E1FC87B59CD3 /* Pods-PaginationUIManager-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,28 +65,29 @@
 		417BC80CEF2FF33BE42D3904C52B7F7E /* Pods-PaginationUIManager-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaginationUIManager-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4192216A6CD29EB25857D85BB03559FA /* SSPullToRefreshDefaultContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshDefaultContentView.m; path = SSPullToRefresh/SSPullToRefreshDefaultContentView.m; sourceTree = "<group>"; };
 		4474C93182C594A3E35BB76655661A61 /* SSPullToRefreshView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshView.m; path = SSPullToRefresh/SSPullToRefreshView.m; sourceTree = "<group>"; };
-		4BB0E4B76516B74DADC31F4F6C703D33 /* PaginationUIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PaginationUIManager.framework; path = PaginationUIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB0E4B76516B74DADC31F4F6C703D33 /* PaginationUIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PaginationUIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E949EB20E487D4F9EDE3CAE77D14416 /* Pods-PaginationUIManager-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaginationUIManager-Example-resources.sh"; sourceTree = "<group>"; };
-		5B2C2EBCA0A2783DF77F9003F2E9B577 /* Pods_PaginationUIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaginationUIManager_Example.framework; path = "Pods-PaginationUIManager-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2C2EBCA0A2783DF77F9003F2E9B577 /* Pods_PaginationUIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationUIManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4442B4D95A9E83C9F55DA934BCF9EB /* PaginationUIManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PaginationUIManager-dummy.m"; sourceTree = "<group>"; };
 		5ECA19BE17EA21B74D584C764DE23C03 /* SSPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65590FA46CEB68646E03AF62F028D408 /* SSPullToRefreshView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshView.h; path = SSPullToRefresh/SSPullToRefreshView.h; sourceTree = "<group>"; };
 		6E865B16F3DF06E9A9137B366D33285F /* SSPullToRefreshSimpleContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshSimpleContentView.m; path = SSPullToRefresh/SSPullToRefreshSimpleContentView.m; sourceTree = "<group>"; };
 		72328183E2BA425E6A04E1FC87B59CD3 /* Pods-PaginationUIManager-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaginationUIManager-Example-umbrella.h"; sourceTree = "<group>"; };
-		75C820DD5C4B2CE308F6BDA91FA792EA /* SSPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SSPullToRefresh.modulemap; sourceTree = "<group>"; };
+		75C820DD5C4B2CE308F6BDA91FA792EA /* SSPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SSPullToRefresh.modulemap; sourceTree = "<group>"; };
 		79A31987970D765B7CACEE73A9A10F70 /* PaginationUIManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaginationUIManager-prefix.pch"; sourceTree = "<group>"; };
-		7F7A6C60FBBD9A02346973CDBD417A4B /* Pods-PaginationUIManager-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PaginationUIManager-Example.modulemap"; sourceTree = "<group>"; };
+		7F7A6C60FBBD9A02346973CDBD417A4B /* Pods-PaginationUIManager-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PaginationUIManager-Example.modulemap"; sourceTree = "<group>"; };
+		805553B71F612F3A00E1BB19 /* PullToRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PullToRefresh.swift; path = Source/Classes/PullToRefresh.swift; sourceTree = "<group>"; };
 		89B96F0B1EBFB5FD33C518EC0FE81B4B /* Pods-PaginationUIManager-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaginationUIManager-Example-dummy.m"; sourceTree = "<group>"; };
 		8B69811247ABCA046C9A87EFB09517D6 /* SSPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSPullToRefresh-dummy.m"; sourceTree = "<group>"; };
 		8BBBBF382F071B6DEEE2E9F784FB7F51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		902AE82EBB611DF0DE72DEF76398AD77 /* SSPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSPullToRefresh.framework; path = SSPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		902AE82EBB611DF0DE72DEF76398AD77 /* SSPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A522FBF94B02E8DC18CB7183E48B4B4A /* SSPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
 		B78042F9DF8D156CAB611D4B9A73091B /* PaginationUIManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaginationUIManager.xcconfig; sourceTree = "<group>"; };
 		BFEC0A474BCF5652E296375946BAD6DC /* SSPullToRefreshDefaultContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshDefaultContentView.h; path = SSPullToRefresh/SSPullToRefreshDefaultContentView.h; sourceTree = "<group>"; };
 		BFFA9431966F9DD46EEA822A2DA149AB /* SSPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefresh.h; path = SSPullToRefresh/SSPullToRefresh.h; sourceTree = "<group>"; };
 		D34C81D50F4D19BDE808B8F6B511976E /* SSPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSPullToRefresh.xcconfig; sourceTree = "<group>"; };
-		D39C77F720BB8B6943A90DF5D9E81715 /* PaginationUIManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PaginationUIManager.modulemap; sourceTree = "<group>"; };
+		D39C77F720BB8B6943A90DF5D9E81715 /* PaginationUIManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PaginationUIManager.modulemap; sourceTree = "<group>"; };
 		DA8BF8D5726F90915CACF1352A150276 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF2429C08ED841386692816478FF361C /* PaginationUIManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaginationUIManager-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -224,7 +226,6 @@
 				4474C93182C594A3E35BB76655661A61 /* SSPullToRefreshView.m */,
 				983F7A9D6C129B1EB4F4737DE8CFE6BC /* Support Files */,
 			);
-			name = SSPullToRefresh;
 			path = SSPullToRefresh;
 			sourceTree = "<group>";
 		};
@@ -240,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				3BBD2D05903E5A01F9F2ABBF4DD3E2CC /* PaginationUIManager.swift */,
+				805553B71F612F3A00E1BB19 /* PullToRefresh.swift */,
 				9020A928F069A702A464DA24A5F7864B /* Support Files */,
 			);
 			name = PaginationUIManager;
@@ -395,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DA7F84F18A3243853A3215BDDA061DE /* PaginationUIManager-dummy.m in Sources */,
+				805553B81F612F3A00E1BB19 /* PullToRefresh.swift in Sources */,
 				F2886A841FA87ABF374C0CF02DE40FE6 /* PaginationUIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
