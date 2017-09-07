@@ -1,0 +1,6 @@
+framework module PaginationUIManager {
+  umbrella header "PaginationUIManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
