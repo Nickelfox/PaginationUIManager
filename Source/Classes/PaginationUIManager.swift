@@ -9,7 +9,7 @@
 import Foundation
 import SSPullToRefresh
 
-public protocol PaginationUIManagerProtocol {
+public protocol PaginationUIManagerDelegate {
 	func refreshAll(completion: @escaping (_ hasMoreData: Bool) -> Void)
 	func loadMore(completion: @escaping (_ hasMoreData: Bool) -> Void)
 }
@@ -20,14 +20,14 @@ public enum PullToRefreshType {
 	case custom(PullToRefreshContentView)
 }
 
-class PaginationUIManager: NSObject {
+public class PaginationUIManager: NSObject {
 	fileprivate weak var scrollView: UIScrollView?
 	fileprivate var refreshControl: UIRefreshControl?
 	fileprivate var bottomLoader: UIView?
 	fileprivate var isObservingKeyPath: Bool = false
 	fileprivate var pullToRefreshView: PullToRefreshView?
 	
-	public var delegate: PaginationUIManagerProtocol?
+	public var delegate: PaginationUIManagerDelegate?
 	
 	fileprivate var pullToRefreshType: PullToRefreshType {
 		didSet {
@@ -58,7 +58,7 @@ class PaginationUIManager: NSObject {
 }
 
 extension PaginationUIManager {
-	func setupPullToRefresh() {
+	fileprivate func setupPullToRefresh() {
 		switch self.pullToRefreshType {
 		case .none:
 			self.removeRefreshControl()
@@ -77,7 +77,7 @@ extension PaginationUIManager {
 		self.scrollView?.addSubview(self.refreshControl!)
 		self.refreshControl?.addTarget(
 			self,
-			action: #selector(PaginationUIManager.handleRefresh),
+			action: #selector(PaginationUIManager.refresh(completion:)),
 			for: .valueChanged)
 	}
 	
@@ -90,7 +90,7 @@ extension PaginationUIManager {
 	fileprivate func removeRefreshControl() {
 		self.refreshControl?.removeTarget(
 			self,
-			action: #selector(PaginationUIManager.handleRefresh),
+			action: #selector(PaginationUIManager.refresh(completion:)),
 			for: .valueChanged)
 		self.refreshControl?.removeFromSuperview()
 		self.refreshControl = nil
@@ -100,30 +100,9 @@ extension PaginationUIManager {
 		self.pullToRefreshView = nil
 	}
 	
-	@objc fileprivate func handleRefresh() {
+	@objc fileprivate func refresh(completion: @escaping () -> Void) {
 		if self.isLoading {
-			self.refreshControl?.endRefreshing()
-			self.pullToRefreshView?.finishLoading()
-			return
-		}
-		
-		self.isLoading = true
-		self.delegate?.refreshAll(completion: { [weak self] hasMoreData in
-			guard let this = self else { return }
-			this.isLoading = false
-			this.hasMoreDataToLoad = hasMoreData
-			if let refreshControl = this.refreshControl {
-				refreshControl.endRefreshing()
-			} else if let pullToRefreshView = this.pullToRefreshView {
-				pullToRefreshView.finishLoading()
-			}
-		})
-	}
-	
-	fileprivate func refresh(completion: @escaping () -> Void) {
-		if self.isLoading {
-			self.refreshControl?.endRefreshing()
-			self.pullToRefreshView?.finishLoading()
+			self.endRefreshing()
 			return
 		}
 		self.isLoading = true
@@ -131,13 +110,18 @@ extension PaginationUIManager {
 			guard let this = self else { return }
 			this.isLoading = false
 			this.hasMoreDataToLoad = hasMoreData
+			this.endRefreshing()
 			if hasMoreData {
 				this.addScrollViewOffsetObserver()
 				this.addBottomLoader()
 			}
-			this.refreshControl?.endRefreshing()
 			completion()
 		})
+	}
+	
+	fileprivate func endRefreshing() {
+		self.refreshControl?.endRefreshing()
+		self.pullToRefreshView?.finishLoading()
 	}
 }
 
@@ -219,10 +203,30 @@ extension PaginationUIManager {
 
 extension PaginationUIManager: PullToRefreshViewDelegate {
 	public func pull(toRefreshViewDidStartLoading view: PullToRefreshView!) {
-		self.handleRefresh()
+		self.load { }
 	}
 	
 	public func pull(toRefreshViewDidFinishLoading view: PullToRefreshView!) {
-		self.pullToRefreshView?.finishLoading()
+		self.endRefreshing()
+	}
+	
+	public func pull(toRefreshViewShouldStartLoading view: SSPullToRefreshView!) -> Bool {
+		return true
+	}
+	
+	public func pull(_ view: SSPullToRefreshView!, didUpdateContentInset contentInset: UIEdgeInsets) {
+		if self.hasMoreDataToLoad {
+			if let bottomLoader = self.bottomLoader {
+				self.scrollView?.contentInset.bottom = bottomLoader.frame.height
+			}
+		}
+	}
+	
+	public func pull(_ view: SSPullToRefreshView!, didTransitionTo toState: SSPullToRefreshViewState, from fromState: SSPullToRefreshViewState, animated: Bool) {
+		
+	}
+	
+	public func pull(_ view: SSPullToRefreshView!, willTransitionTo toState: SSPullToRefreshViewState, from fromState: SSPullToRefreshViewState, animated: Bool) {
+		
 	}
 }
