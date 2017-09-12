@@ -204,6 +204,7 @@ extension PaginationUIManager {
 extension PaginationUIManager: PullToRefreshViewDelegate {
 	public func pull(toRefreshViewDidStartLoading view: PullToRefreshView!) {
 		self.load { }
+		self.pullToRefreshView?.finishLoading()
 	}
 	
 	public func pull(toRefreshViewDidFinishLoading view: PullToRefreshView!) {
