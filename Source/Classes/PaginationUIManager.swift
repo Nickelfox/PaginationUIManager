@@ -77,7 +77,7 @@ extension PaginationUIManager {
 		self.scrollView?.addSubview(self.refreshControl!)
 		self.refreshControl?.addTarget(
 			self,
-			action: #selector(PaginationUIManager.refresh(completion:)),
+			action: #selector(PaginationUIManager.handleRefresh),
 			for: .valueChanged)
 	}
 	
@@ -90,7 +90,7 @@ extension PaginationUIManager {
 	fileprivate func removeRefreshControl() {
 		self.refreshControl?.removeTarget(
 			self,
-			action: #selector(PaginationUIManager.refresh(completion:)),
+			action: #selector(PaginationUIManager.handleRefresh),
 			for: .valueChanged)
 		self.refreshControl?.removeFromSuperview()
 		self.refreshControl = nil
@@ -100,7 +100,13 @@ extension PaginationUIManager {
 		self.pullToRefreshView = nil
 	}
 	
-	@objc fileprivate func refresh(completion: @escaping () -> Void) {
+	@objc fileprivate func handleRefresh() {
+		self.refresh {
+			
+		}
+	}
+	
+	fileprivate func refresh(completion: @escaping () -> Void) {
 		if self.isLoading {
 			self.endRefreshing()
 			return
