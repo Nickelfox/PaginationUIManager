@@ -90,6 +90,9 @@ states are the cases of enum **PullToRefreshViewState**.
         case closing
     }
 ```
+If you're using this on `UICollectionView`, then make sure you've enabled paging and set `alwaysBounceVertical` property 
+of `UICollectionView` to `true`.
+
 
 Example
 -----------
