@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PaginationUIManager'
-  s.version          = '0.1.0'
+  s.version          = '0.2'
   s.summary          = 'A Generic PaginationUIManager library for iOS by Fox Labs.'
   s.description      = <<-DESC
 A Generic PaginationUIManager library for iOS by Fox Labs. It contains utility methods for various classes in iOS.
