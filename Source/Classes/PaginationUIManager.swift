@@ -55,6 +55,13 @@ public class PaginationUIManager: NSObject {
 			completion()
 		}
 	}
+	
+	public func endLoading() {
+		self.isLoading = false
+		self.endRefreshing()
+		self.removeBottomLoader()
+	}
+
 }
 
 extension PaginationUIManager {
