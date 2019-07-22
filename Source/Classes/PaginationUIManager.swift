@@ -37,7 +37,7 @@ public class PaginationUIManager: NSObject {
 	fileprivate var pullToRefreshContentView: UIView? = nil
 	
 	var isLoading = false
-	var hasMoreDataToLoad = true
+	var hasMoreDataToLoad = false
 	
 	public init(scrollView: UIScrollView, pullToRefreshType: PullToRefreshType = .basic) {
 		self.scrollView = scrollView
@@ -55,6 +55,13 @@ public class PaginationUIManager: NSObject {
 			completion()
 		}
 	}
+	
+	public func endLoading() {
+		self.isLoading = false
+		self.endRefreshing()
+		self.removeBottomLoader()
+	}
+
 }
 
 extension PaginationUIManager {
