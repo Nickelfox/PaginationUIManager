@@ -106,7 +106,6 @@
 				E3D3A6331F612A4C00E13F1C /* Frameworks */,
 				E3D3A6341F612A4C00E13F1C /* Resources */,
 				764DCA2D7C461CF8AC447F12 /* [CP] Embed Pods Frameworks */,
-				74C32ED56BA6CA86FD2D055F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +129,7 @@
 					E3D3A6351F612A4C00E13F1C = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = NY45473NT8;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -167,28 +167,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		74C32ED56BA6CA86FD2D055F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaginationUIManager-Example/Pods-PaginationUIManager-Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		764DCA2D7C461CF8AC447F12 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PaginationUIManager-Example/Pods-PaginationUIManager-Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PaginationUIManager-Example/Pods-PaginationUIManager-Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PaginationUIManager/PaginationUIManager.framework",
 				"${BUILT_PRODUCTS_DIR}/SSPullToRefresh/SSPullToRefresh.framework",
 			);
@@ -199,7 +184,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaginationUIManager-Example/Pods-PaginationUIManager-Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaginationUIManager-Example/Pods-PaginationUIManager-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D91861C9C9A6FC12459A0E6E /* [CP] Check Pods Manifest.lock */ = {
@@ -368,7 +353,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickelfox.PaginationUIManager-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -382,7 +368,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickelfox.PaginationUIManager-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

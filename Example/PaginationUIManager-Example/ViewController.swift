@@ -35,7 +35,7 @@ class ViewController: UIViewController {
 	}
 	
 	fileprivate func fetchItems() {
-		paginationUIManager?.load { _ in
+		paginationUIManager?.load { 
 			
 		}
 	}

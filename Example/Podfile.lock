@@ -1,19 +1,23 @@
 PODS:
-  - PaginationUIManager (0.1.0):
+  - PaginationUIManager (0.2):
     - SSPullToRefresh (~> 1.3)
   - SSPullToRefresh (1.3.0)
 
 DEPENDENCIES:
   - PaginationUIManager (from `../`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SSPullToRefresh
+
 EXTERNAL SOURCES:
   PaginationUIManager:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  PaginationUIManager: 0988e4b171dbfe74fc63c0abf50d0096b4b9d053
+  PaginationUIManager: 11577e4e4ea01fe63dd1a5685241dde358c63545
   SSPullToRefresh: 3a47e116692b60e7da5a8c60418488133bcc9550
 
 PODFILE CHECKSUM: 05f383b8c40d929119aa1b5eb0491d723b82b840
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.8.4

@@ -1,6 +1,6 @@
 {
   "name": "PaginationUIManager",
-  "version": "0.1.0",
+  "version": "0.2",
   "summary": "A Generic PaginationUIManager library for iOS by Fox Labs.",
   "description": "A Generic PaginationUIManager library for iOS by Fox Labs. It contains utility methods for various classes in iOS.",
   "homepage": "https://github.com/Nickelfox/PaginationUIManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Nickelfox/PaginationUIManager.git",
-    "tag": "0.1.0"
+    "tag": "0.2"
   },
   "platforms": {
     "ios": "9.0"

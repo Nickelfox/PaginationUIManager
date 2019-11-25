@@ -145,7 +145,7 @@ extension PaginationUIManager {
 		view.frame.size = CGSize(width: scrollView.frame.width, height: 60)
 		view.frame.origin = CGPoint(x: 0, y: scrollView.contentSize.height)
 		view.backgroundColor = UIColor.clear
-		let activity = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+		let activity = UIActivityIndicatorView(style: .gray)
 		activity.frame = view.bounds
 		activity.startAnimating()
 		view.addSubview(activity)
