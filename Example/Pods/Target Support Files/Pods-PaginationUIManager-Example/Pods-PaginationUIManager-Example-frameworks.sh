@@ -161,10 +161,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PaginationUIManager/PaginationUIManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SSPullToRefresh/SSPullToRefresh.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PaginationUIManager/PaginationUIManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SSPullToRefresh/SSPullToRefresh.framework"
 fi

@@ -8,27 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		1F2EB02BC20C7C4CFE0EE14ECF78A5D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A9EFAEBA2CB700D21D54FD9979624E /* Foundation.framework */; };
-		2C2121C3ECC9EF46D3D8DBA7FFC4AA3B /* Pods-PaginationUIManager-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AADA945A52A8DC00394A0686AEE20E /* Pods-PaginationUIManager-Example-dummy.m */; };
+		2FA8667CA0CAF36F5075682C333B2C9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A9EFAEBA2CB700D21D54FD9979624E /* Foundation.framework */; };
+		4A2D8E4BA4222581DB30A8693DD38882 /* KRActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723584856547CFB8011AFBC675768DF /* KRActivityIndicatorView-dummy.m */; };
 		4A72A4425B113B19D95443AC0AF3ECC3 /* SSPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709167C1114CD34B3CA5D209F26C06B9 /* SSPullToRefresh.framework */; };
-		5D152B399A03E3FF34C6171EA2BF9DC2 /* SSPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BD9D3E192EBD9A3846E3E19E8831A1 /* SSPullToRefreshView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5D152B399A03E3FF34C6171EA2BF9DC2 /* SSPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F822AB19831F536CA012416C3A1FD7 /* SSPullToRefreshView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		649A165FB194461BAD2183F9C4001722 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C19A8775A550855073A77413A0973D /* PullToRefresh.swift */; };
-		6A8AB81A58D54754B4598444EF6C2C6D /* SSPullToRefreshDefaultContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = B3FFB5BB9ED6DB571F8A544951407FFC /* SSPullToRefreshDefaultContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D99C6FF5018ACD3C154F4DA9C85217E /* SSPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 082245DDCE2D4ED3139FAF2D96654929 /* SSPullToRefresh-dummy.m */; };
-		6EDC90A3B8E6F7522328474E2F4FE106 /* SSPullToRefreshSimpleContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 168A7927777D6D4237709311142393A2 /* SSPullToRefreshSimpleContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82BCBD6878A434B0B02B4AD4EBBA2B3C /* SSPullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A657EF7E54A4B94CF1571DC0A1E243 /* SSPullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82D6D6FBEF55C7C264F4643903440AD9 /* SSPullToRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D57BD01605A9019ECF5152F37FC053E /* SSPullToRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A8AB81A58D54754B4598444EF6C2C6D /* SSPullToRefreshDefaultContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 736B3833A013192A77D04C87F2F63F5D /* SSPullToRefreshDefaultContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D99C6FF5018ACD3C154F4DA9C85217E /* SSPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EEB922CB33E85E3EF89C7057828DB3 /* SSPullToRefresh-dummy.m */; };
+		6EDC90A3B8E6F7522328474E2F4FE106 /* SSPullToRefreshSimpleContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E456A2B7B2D4814734F9FAB1C231FD /* SSPullToRefreshSimpleContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82BCBD6878A434B0B02B4AD4EBBA2B3C /* SSPullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331C00CF4787EEF608A220C6A988C046 /* SSPullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82D6D6FBEF55C7C264F4643903440AD9 /* SSPullToRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD7374EF5A2094A350E58AE5148EDF7 /* SSPullToRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8691040C4144FF67AF097D34E7B4075A /* KRActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6045E57D41F30BA68E615C7BDCC5E01 /* KRActivityIndicatorView.swift */; };
 		97290543C6530463A3B00F2E1B761391 /* PaginationUIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117EDBED1BF3977711422FC229FBD8B9 /* PaginationUIManager.swift */; };
-		978315D1FF3A2BBCFBF325C57768893F /* SSPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9F119EE28860C18A57184C4205BA2F /* SSPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		978315D1FF3A2BBCFBF325C57768893F /* SSPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 704349EA630DF691050DF3520040EC5E /* SSPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3FA7A19632342C8084CB782AD20095 /* Pods-PaginationUIManager-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5173093856AD12A5E73A3AD22D43FB /* Pods-PaginationUIManager-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2132D53B6D6649A711E1D3D5B6C81A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A9EFAEBA2CB700D21D54FD9979624E /* Foundation.framework */; };
 		A2FD8D4797C5CF23D08610F9764BE76B /* PaginationUIManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1461CFEDE9F2D8D82BA73EEAC4FB8AD /* PaginationUIManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4767C515446ED3F96F65A2D435BE630 /* Pods-PaginationUIManager-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5173093856AD12A5E73A3AD22D43FB /* Pods-PaginationUIManager-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B65D5E69A7DC997844720D85CE708A8D /* SSPullToRefreshSimpleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D58325EFA96FB7F93C4986FDF62C95 /* SSPullToRefreshSimpleContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CD8D40A26AF8F3F52E2CEE26557B8062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A9EFAEBA2CB700D21D54FD9979624E /* Foundation.framework */; };
-		D3C97EC4D75DC69EE214DF8424F2E977 /* SSPullToRefreshDefaultContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9665F16AF51572226FDA1CF46F7561 /* SSPullToRefreshDefaultContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B08BE67E2FAACEB75B2642DEA72EBAEC /* KRActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F738F261EC8F8B8C35790AB3FA27CC /* KRActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2AF60D700DEA45CD781143D423DF491 /* Pods-PaginationUIManager-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AADA945A52A8DC00394A0686AEE20E /* Pods-PaginationUIManager-Example-dummy.m */; };
+		B65D5E69A7DC997844720D85CE708A8D /* SSPullToRefreshSimpleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9648DC182230A9C8D7AC8D66359AB65E /* SSPullToRefreshSimpleContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C1295E98EFFD9626E5D50D96EF9E14BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A9EFAEBA2CB700D21D54FD9979624E /* Foundation.framework */; };
+		D3C97EC4D75DC69EE214DF8424F2E977 /* SSPullToRefreshDefaultContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3406CC3F1704E03CB5C6C1ADDD7FAD2 /* SSPullToRefreshDefaultContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DBA00C6A264C2E09CA73D144B38CB16A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC58D172F67807AE8497E86B8A3313F /* Extensions.swift */; };
 		F01127F536C2BAD8DA7CBE1B6D1DEAB9 /* PaginationUIManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD900227FDD6027A813FDB8E27B31C6 /* PaginationUIManager-dummy.m */; };
+		F64EAB10BAE213A7034C70C8CCAE2B44 /* KRActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3743AC2E93539801576C8132CDF8A74 /* KRActivityIndicatorViewStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		026A9169189F0580A8D74C945718B540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7A1E5A05AF87570E2873C5F725E2CB;
+			remoteInfo = KRActivityIndicatorView;
+		};
+		398846D4E9A1C547D19C17565A267D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1F033D883403035BA578F6C4FF72D37;
+			remoteInfo = PaginationUIManager;
+		};
 		5679B44A07222BD0D6A0294A52C8D72F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -36,62 +56,65 @@
 			remoteGlobalIDString = 82F977B2493B989A9D13FABFD6A0FB66;
 			remoteInfo = SSPullToRefresh;
 		};
-		5A9D5C52B6D116ACB6F264FB7A9784D4 /* PBXContainerItemProxy */ = {
+		F3D9BF1678F413FDD71CF5D67043278B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 82F977B2493B989A9D13FABFD6A0FB66;
 			remoteInfo = SSPullToRefresh;
 		};
-		769680062A93641CCF9AACBB30BB3CDA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1F033D883403035BA578F6C4FF72D37;
-			remoteInfo = PaginationUIManager;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082245DDCE2D4ED3139FAF2D96654929 /* SSPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSPullToRefresh-dummy.m"; sourceTree = "<group>"; };
-		0CEBF730BBF975362338F0AE3DB56438 /* SSPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
+		0723584856547CFB8011AFBC675768DF /* KRActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
 		117EDBED1BF3977711422FC229FBD8B9 /* PaginationUIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaginationUIManager.swift; path = Source/Classes/PaginationUIManager.swift; sourceTree = "<group>"; };
-		168A7927777D6D4237709311142393A2 /* SSPullToRefreshSimpleContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshSimpleContentView.h; path = SSPullToRefresh/SSPullToRefreshSimpleContentView.h; sourceTree = "<group>"; };
-		1A9F119EE28860C18A57184C4205BA2F /* SSPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefresh.h; path = SSPullToRefresh/SSPullToRefresh.h; sourceTree = "<group>"; };
+		1B39213131210777EE5FA19F57FB6235 /* KRActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
 		1D6EFF6E6051B32917B8EA134B758EC9 /* PaginationUIManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaginationUIManager.xcconfig; sourceTree = "<group>"; };
-		28BD9D3E192EBD9A3846E3E19E8831A1 /* SSPullToRefreshView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshView.m; path = SSPullToRefresh/SSPullToRefreshView.m; sourceTree = "<group>"; };
-		319E00FB5A7AB1FB6EB80A38AC77AE0B /* SSPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41A657EF7E54A4B94CF1571DC0A1E243 /* SSPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
+		319E00FB5A7AB1FB6EB80A38AC77AE0B /* SSPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSPullToRefresh.framework; path = SSPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		331C00CF4787EEF608A220C6A988C046 /* SSPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
+		43C61247FB9E4A298117C37997225F2A /* SSPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSPullToRefresh.xcconfig; sourceTree = "<group>"; };
 		4B5979257AEA404CDD6604830E88A2DF /* Pods-PaginationUIManager-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaginationUIManager-Example-Info.plist"; sourceTree = "<group>"; };
+		4DF20E20ACD626B352A8BF7EEC674F18 /* KRActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
 		57A9EFAEBA2CB700D21D54FD9979624E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		58EEF7B228F8E297B8F562E4288E5B7C /* Pods-PaginationUIManager-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaginationUIManager-Example.release.xcconfig"; sourceTree = "<group>"; };
-		5AF3277159100A1DA103C13CBBF23E16 /* SSPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSPullToRefresh.modulemap; sourceTree = "<group>"; };
 		61AADA945A52A8DC00394A0686AEE20E /* Pods-PaginationUIManager-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaginationUIManager-Example-dummy.m"; sourceTree = "<group>"; };
 		6BD900227FDD6027A813FDB8E27B31C6 /* PaginationUIManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PaginationUIManager-dummy.m"; sourceTree = "<group>"; };
-		6DA8607497926F69FEDE2E26DA3141A4 /* PaginationUIManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PaginationUIManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6DA8607497926F69FEDE2E26DA3141A4 /* PaginationUIManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PaginationUIManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7006B569ECA7E6F4BEEE68753F946C2F /* Pods-PaginationUIManager-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaginationUIManager-Example-frameworks.sh"; sourceTree = "<group>"; };
+		704349EA630DF691050DF3520040EC5E /* SSPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefresh.h; path = SSPullToRefresh/SSPullToRefresh.h; sourceTree = "<group>"; };
 		709167C1114CD34B3CA5D209F26C06B9 /* SSPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7297582119D99D31E5F477A58941C0CF /* PaginationUIManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PaginationUIManager.modulemap; sourceTree = "<group>"; };
-		81F9483D7EDB755CA961F2BE86885279 /* SSPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSPullToRefresh.xcconfig; sourceTree = "<group>"; };
-		8C54C61F60AC35AC6044BD2D8DF9C388 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8D57BD01605A9019ECF5152F37FC053E /* SSPullToRefreshView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshView.h; path = SSPullToRefresh/SSPullToRefreshView.h; sourceTree = "<group>"; };
-		91691A3B8E75E250F1EAECD55E3F993D /* Pods_PaginationUIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationUIManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		736B3833A013192A77D04C87F2F63F5D /* SSPullToRefreshDefaultContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshDefaultContentView.h; path = SSPullToRefresh/SSPullToRefreshDefaultContentView.h; sourceTree = "<group>"; };
+		75F738F261EC8F8B8C35790AB3FA27CC /* KRActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		8A690EE5A7E0804167CCF9D5479AAB04 /* SSPullToRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSPullToRefresh-Info.plist"; sourceTree = "<group>"; };
+		8C54C61F60AC35AC6044BD2D8DF9C388 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		91691A3B8E75E250F1EAECD55E3F993D /* Pods_PaginationUIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaginationUIManager_Example.framework; path = "Pods-PaginationUIManager-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRActivityIndicatorView.framework; path = KRActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9648DC182230A9C8D7AC8D66359AB65E /* SSPullToRefreshSimpleContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshSimpleContentView.m; path = SSPullToRefresh/SSPullToRefreshSimpleContentView.m; sourceTree = "<group>"; };
 		9B55C43B990E6FAB106596F790F3E69B /* Pods-PaginationUIManager-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaginationUIManager-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D9665F16AF51572226FDA1CF46F7561 /* SSPullToRefreshDefaultContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshDefaultContentView.m; path = SSPullToRefresh/SSPullToRefreshDefaultContentView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2EEB922CB33E85E3EF89C7057828DB3 /* SSPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSPullToRefresh-dummy.m"; sourceTree = "<group>"; };
 		AA1DE864CF80BA90C54DD65A0A84E8CE /* Pods-PaginationUIManager-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaginationUIManager-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B3FFB5BB9ED6DB571F8A544951407FFC /* SSPullToRefreshDefaultContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshDefaultContentView.h; path = SSPullToRefresh/SSPullToRefreshDefaultContentView.h; sourceTree = "<group>"; };
-		B8A9818B6E4FB149055AC1563A82052C /* SSPullToRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSPullToRefresh-Info.plist"; sourceTree = "<group>"; };
-		B8D58325EFA96FB7F93C4986FDF62C95 /* SSPullToRefreshSimpleContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshSimpleContentView.m; path = SSPullToRefresh/SSPullToRefreshSimpleContentView.m; sourceTree = "<group>"; };
-		B921CD122A76C6B492A9E0C40D6D676C /* PaginationUIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PaginationUIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6045E57D41F30BA68E615C7BDCC5E01 /* KRActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorView.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorView.swift; sourceTree = "<group>"; };
+		B921CD122A76C6B492A9E0C40D6D676C /* PaginationUIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PaginationUIManager.framework; path = PaginationUIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5CD9246E9FD7BAA0E10D66064BCA05 /* SSPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
 		C2F2C06E7BFBB95448E971DBB3F27864 /* PaginationUIManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaginationUIManager-prefix.pch"; sourceTree = "<group>"; };
+		CA813606F6B9C4A77635A68CF4F24015 /* KRActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		CB3F9BB37A40A9A851B3402BA31AC47E /* KRActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		D1F822AB19831F536CA012416C3A1FD7 /* SSPullToRefreshView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshView.m; path = SSPullToRefresh/SSPullToRefreshView.m; sourceTree = "<group>"; };
+		D3743AC2E93539801576C8132CDF8A74 /* KRActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorViewStyle.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
 		D5863C3AE4E0E3046828F10FD43051A9 /* Pods-PaginationUIManager-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaginationUIManager-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D9614C74E3689D2BC79B3802562F4415 /* Pods-PaginationUIManager-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaginationUIManager-Example.modulemap"; sourceTree = "<group>"; };
 		DE5173093856AD12A5E73A3AD22D43FB /* Pods-PaginationUIManager-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaginationUIManager-Example-umbrella.h"; sourceTree = "<group>"; };
+		DFD7374EF5A2094A350E58AE5148EDF7 /* SSPullToRefreshView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshView.h; path = SSPullToRefresh/SSPullToRefreshView.h; sourceTree = "<group>"; };
 		E1461CFEDE9F2D8D82BA73EEAC4FB8AD /* PaginationUIManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaginationUIManager-umbrella.h"; sourceTree = "<group>"; };
-		E2684204D66074418A0EB9C0B62EB0BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E2684204D66074418A0EB9C0B62EB0BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E2C19A8775A550855073A77413A0973D /* PullToRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PullToRefresh.swift; path = Source/Classes/PullToRefresh.swift; sourceTree = "<group>"; };
 		E363770A36414B965D835C7FB5D33A8B /* PaginationUIManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PaginationUIManager-Info.plist"; sourceTree = "<group>"; };
+		E6E456A2B7B2D4814734F9FAB1C231FD /* SSPullToRefreshSimpleContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSPullToRefreshSimpleContentView.h; path = SSPullToRefresh/SSPullToRefreshSimpleContentView.h; sourceTree = "<group>"; };
+		ECC58D172F67807AE8497E86B8A3313F /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRActivityIndicatorView/Classes/Extensions.swift; sourceTree = "<group>"; };
+		F2B5FD1EFF02193184A14FD5E88F4633 /* SSPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSPullToRefresh.modulemap; sourceTree = "<group>"; };
+		F3406CC3F1704E03CB5C6C1ADDD7FAD2 /* SSPullToRefreshDefaultContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSPullToRefreshDefaultContentView.m; path = SSPullToRefresh/SSPullToRefreshDefaultContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +123,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F2EB02BC20C7C4CFE0EE14ECF78A5D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431447BDF053721931259AE38328CEC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA8667CA0CAF36F5075682C333B2C9C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,11 +143,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBD1BF1F17E17F41BA48E3F787F28CEF /* Frameworks */ = {
+		8D1A63B255B97C79B781E519412FE23E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD8D40A26AF8F3F52E2CEE26557B8062 /* Foundation.framework in Frameworks */,
+				C1295E98EFFD9626E5D50D96EF9E14BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,16 +161,6 @@
 				3D840AC9DC33F4CB4520C84DFA767E7F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		14B41EF3E13ABCABA9DAB076E54E0036 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B921CD122A76C6B492A9E0C40D6D676C /* PaginationUIManager.framework */,
-				91691A3B8E75E250F1EAECD55E3F993D /* Pods_PaginationUIManager_Example.framework */,
-				319E00FB5A7AB1FB6EB80A38AC77AE0B /* SSPullToRefresh.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		20544431180E4C9C71087BE8B921D3A7 /* Pods-PaginationUIManager-Example */ = {
@@ -159,20 +180,6 @@
 			path = "Target Support Files/Pods-PaginationUIManager-Example";
 			sourceTree = "<group>";
 		};
-		2CDDB541916B26B99675E656414EBC2D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5AF3277159100A1DA103C13CBBF23E16 /* SSPullToRefresh.modulemap */,
-				81F9483D7EDB755CA961F2BE86885279 /* SSPullToRefresh.xcconfig */,
-				082245DDCE2D4ED3139FAF2D96654929 /* SSPullToRefresh-dummy.m */,
-				B8A9818B6E4FB149055AC1563A82052C /* SSPullToRefresh-Info.plist */,
-				0CEBF730BBF975362338F0AE3DB56438 /* SSPullToRefresh-prefix.pch */,
-				41A657EF7E54A4B94CF1571DC0A1E243 /* SSPullToRefresh-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SSPullToRefresh";
-			sourceTree = "<group>";
-		};
 		38903BA00EED15D6449D48BDAB4750C5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,18 +196,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		862415F8B66393D903B45721C1DF4B4A /* SSPullToRefresh */ = {
+		5B5F2214CE630B93BADDDF86A62717ED /* SSPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				1A9F119EE28860C18A57184C4205BA2F /* SSPullToRefresh.h */,
-				B3FFB5BB9ED6DB571F8A544951407FFC /* SSPullToRefreshDefaultContentView.h */,
-				9D9665F16AF51572226FDA1CF46F7561 /* SSPullToRefreshDefaultContentView.m */,
-				168A7927777D6D4237709311142393A2 /* SSPullToRefreshSimpleContentView.h */,
-				B8D58325EFA96FB7F93C4986FDF62C95 /* SSPullToRefreshSimpleContentView.m */,
-				8D57BD01605A9019ECF5152F37FC053E /* SSPullToRefreshView.h */,
-				28BD9D3E192EBD9A3846E3E19E8831A1 /* SSPullToRefreshView.m */,
-				2CDDB541916B26B99675E656414EBC2D /* Support Files */,
+				704349EA630DF691050DF3520040EC5E /* SSPullToRefresh.h */,
+				736B3833A013192A77D04C87F2F63F5D /* SSPullToRefreshDefaultContentView.h */,
+				F3406CC3F1704E03CB5C6C1ADDD7FAD2 /* SSPullToRefreshDefaultContentView.m */,
+				E6E456A2B7B2D4814734F9FAB1C231FD /* SSPullToRefreshSimpleContentView.h */,
+				9648DC182230A9C8D7AC8D66359AB65E /* SSPullToRefreshSimpleContentView.m */,
+				DFD7374EF5A2094A350E58AE5148EDF7 /* SSPullToRefreshView.h */,
+				D1F822AB19831F536CA012416C3A1FD7 /* SSPullToRefreshView.m */,
+				F873FF73E6245493C8E77939D463ECE1 /* Support Files */,
 			);
+			name = SSPullToRefresh;
 			path = SSPullToRefresh;
 			sourceTree = "<group>";
 		};
@@ -212,14 +220,51 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		A5427DA425EBB9BC58B1E499B6025686 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA813606F6B9C4A77635A68CF4F24015 /* KRActivityIndicatorView.modulemap */,
+				4DF20E20ACD626B352A8BF7EEC674F18 /* KRActivityIndicatorView.xcconfig */,
+				0723584856547CFB8011AFBC675768DF /* KRActivityIndicatorView-dummy.m */,
+				1B39213131210777EE5FA19F57FB6235 /* KRActivityIndicatorView-Info.plist */,
+				CB3F9BB37A40A9A851B3402BA31AC47E /* KRActivityIndicatorView-prefix.pch */,
+				75F738F261EC8F8B8C35790AB3FA27CC /* KRActivityIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KRActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		B5E9AF70A9035E99C13098FA3C274DFF /* KRActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				ECC58D172F67807AE8497E86B8A3313F /* Extensions.swift */,
+				B6045E57D41F30BA68E615C7BDCC5E01 /* KRActivityIndicatorView.swift */,
+				D3743AC2E93539801576C8132CDF8A74 /* KRActivityIndicatorViewStyle.swift */,
+				A5427DA425EBB9BC58B1E499B6025686 /* Support Files */,
+			);
+			name = KRActivityIndicatorView;
+			path = KRActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		B86D5F4F254CEF0485EA4E628860EFFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */,
+				B921CD122A76C6B492A9E0C40D6D676C /* PaginationUIManager.framework */,
+				91691A3B8E75E250F1EAECD55E3F993D /* Pods_PaginationUIManager_Example.framework */,
+				319E00FB5A7AB1FB6EB80A38AC77AE0B /* SSPullToRefresh.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				38903BA00EED15D6449D48BDAB4750C5 /* Development Pods */,
 				043E7C4C214A12232E2107B50D8F9B88 /* Frameworks */,
-				E9E435CB936D19816417464AEC09A189 /* Pods */,
-				14B41EF3E13ABCABA9DAB076E54E0036 /* Products */,
+				E3464C07D9543F9781C26D1DFFC7AF7F /* Pods */,
+				B86D5F4F254CEF0485EA4E628860EFFD /* Products */,
 				8D9E1AC0F9230B3A311FB709A1EA40F4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -234,10 +279,11 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		E9E435CB936D19816417464AEC09A189 /* Pods */ = {
+		E3464C07D9543F9781C26D1DFFC7AF7F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				862415F8B66393D903B45721C1DF4B4A /* SSPullToRefresh */,
+				B5E9AF70A9035E99C13098FA3C274DFF /* KRActivityIndicatorView */,
+				5B5F2214CE630B93BADDDF86A62717ED /* SSPullToRefresh */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -268,14 +314,36 @@
 			path = "Example/Pods/Target Support Files/PaginationUIManager";
 			sourceTree = "<group>";
 		};
+		F873FF73E6245493C8E77939D463ECE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2B5FD1EFF02193184A14FD5E88F4633 /* SSPullToRefresh.modulemap */,
+				43C61247FB9E4A298117C37997225F2A /* SSPullToRefresh.xcconfig */,
+				A2EEB922CB33E85E3EF89C7057828DB3 /* SSPullToRefresh-dummy.m */,
+				8A690EE5A7E0804167CCF9D5479AAB04 /* SSPullToRefresh-Info.plist */,
+				BC5CD9246E9FD7BAA0E10D66064BCA05 /* SSPullToRefresh-prefix.pch */,
+				331C00CF4787EEF608A220C6A988C046 /* SSPullToRefresh-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSPullToRefresh";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F6B94F6C7DACDFE88D334835DACA628 /* Headers */ = {
+		4CF59DC184D1E49904440FB952514A65 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4767C515446ED3F96F65A2D435BE630 /* Pods-PaginationUIManager-Example-umbrella.h in Headers */,
+				9F3FA7A19632342C8084CB782AD20095 /* Pods-PaginationUIManager-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD43ABFC88B856E75E8A5C8CFABE5DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08BE67E2FAACEB75B2642DEA72EBAEC /* KRActivityIndicatorView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +370,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8682F0722472CE2AF5A0A6F635D06841 /* Build configuration list for PBXNativeTarget "KRActivityIndicatorView" */;
+			buildPhases = (
+				6BD43ABFC88B856E75E8A5C8CFABE5DC /* Headers */,
+				34AB59E1B199F146F95D49B435D6526C /* Sources */,
+				8D1A63B255B97C79B781E519412FE23E /* Frameworks */,
+				B6842BCBA42C0E8EC65DA53F1F2D3AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRActivityIndicatorView;
+			productName = KRActivityIndicatorView;
+			productReference = 9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		82F977B2493B989A9D13FABFD6A0FB66 /* SSPullToRefresh */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62DB6E9D6FF2B4DFA16ECAC498E416C4 /* Build configuration list for PBXNativeTarget "SSPullToRefresh" */;
@@ -322,18 +408,19 @@
 		};
 		A50ECBB970D828F061D6C53F694E8927 /* Pods-PaginationUIManager-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5847A5B2D4A33F808545FBDB626B3E0E /* Build configuration list for PBXNativeTarget "Pods-PaginationUIManager-Example" */;
+			buildConfigurationList = AE40C1A5E8DFEC451C7D6CEE9EB03A7E /* Build configuration list for PBXNativeTarget "Pods-PaginationUIManager-Example" */;
 			buildPhases = (
-				0F6B94F6C7DACDFE88D334835DACA628 /* Headers */,
-				E3878083D00AE32F64724CAD54584A25 /* Sources */,
-				FBD1BF1F17E17F41BA48E3F787F28CEF /* Frameworks */,
-				02DEC68B990E52AB9DB4FFFA864A98D5 /* Resources */,
+				4CF59DC184D1E49904440FB952514A65 /* Headers */,
+				62F1459C425568A1F68470BB72C52B62 /* Sources */,
+				431447BDF053721931259AE38328CEC4 /* Frameworks */,
+				2E2C13E4D5FF44F1E64C6B5A869470D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A509A02B575B7BA6EF661D7501DF09BC /* PBXTargetDependency */,
-				B11CA58F66EEAE763CF56A2C6748DB47 /* PBXTargetDependency */,
+				CE5328C64D9CB921BF89B7F0EA37EDAC /* PBXTargetDependency */,
+				1AFB2905EAE6856394553D8CD8D0A540 /* PBXTargetDependency */,
+				48AB228A7D5FEDBC8215100AEC5B2924 /* PBXTargetDependency */,
 			);
 			name = "Pods-PaginationUIManager-Example";
 			productName = "Pods-PaginationUIManager-Example";
@@ -367,11 +454,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					E1F033D883403035BA578F6C4FF72D37 = {
-						LastSwiftMigration = 1010;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -382,10 +464,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 14B41EF3E13ABCABA9DAB076E54E0036 /* Products */;
+			productRefGroup = B86D5F4F254CEF0485EA4E628860EFFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */,
 				E1F033D883403035BA578F6C4FF72D37 /* PaginationUIManager */,
 				A50ECBB970D828F061D6C53F694E8927 /* Pods-PaginationUIManager-Example */,
 				82F977B2493B989A9D13FABFD6A0FB66 /* SSPullToRefresh */,
@@ -394,7 +477,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		02DEC68B990E52AB9DB4FFFA864A98D5 /* Resources */ = {
+		2E2C13E4D5FF44F1E64C6B5A869470D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,6 +485,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		96E3A97445D5ADEB5B1259CEAAFDC8AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6842BCBA42C0E8EC65DA53F1F2D3AAA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,6 +508,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		34AB59E1B199F146F95D49B435D6526C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA00C6A264C2E09CA73D144B38CB16A /* Extensions.swift in Sources */,
+				4A2D8E4BA4222581DB30A8693DD38882 /* KRActivityIndicatorView-dummy.m in Sources */,
+				8691040C4144FF67AF097D34E7B4075A /* KRActivityIndicatorView.swift in Sources */,
+				F64EAB10BAE213A7034C70C8CCAE2B44 /* KRActivityIndicatorViewStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F1459C425568A1F68470BB72C52B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AF60D700DEA45CD781143D423DF491 /* Pods-PaginationUIManager-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF1FFFCA0F0BA8086DD1F71CEBE500A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,14 +535,6 @@
 				D3C97EC4D75DC69EE214DF8424F2E977 /* SSPullToRefreshDefaultContentView.m in Sources */,
 				B65D5E69A7DC997844720D85CE708A8D /* SSPullToRefreshSimpleContentView.m in Sources */,
 				5D152B399A03E3FF34C6171EA2BF9DC2 /* SSPullToRefreshView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3878083D00AE32F64724CAD54584A25 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C2121C3ECC9EF46D3D8DBA7FFC4AA3B /* Pods-PaginationUIManager-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,97 +551,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1AFB2905EAE6856394553D8CD8D0A540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PaginationUIManager;
+			target = E1F033D883403035BA578F6C4FF72D37 /* PaginationUIManager */;
+			targetProxy = 398846D4E9A1C547D19C17565A267D79 /* PBXContainerItemProxy */;
+		};
+		48AB228A7D5FEDBC8215100AEC5B2924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSPullToRefresh;
+			target = 82F977B2493B989A9D13FABFD6A0FB66 /* SSPullToRefresh */;
+			targetProxy = F3D9BF1678F413FDD71CF5D67043278B /* PBXContainerItemProxy */;
+		};
 		A327EBEEFAF938140DB3662974D9E5A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SSPullToRefresh;
 			target = 82F977B2493B989A9D13FABFD6A0FB66 /* SSPullToRefresh */;
 			targetProxy = 5679B44A07222BD0D6A0294A52C8D72F /* PBXContainerItemProxy */;
 		};
-		A509A02B575B7BA6EF661D7501DF09BC /* PBXTargetDependency */ = {
+		CE5328C64D9CB921BF89B7F0EA37EDAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PaginationUIManager;
-			target = E1F033D883403035BA578F6C4FF72D37 /* PaginationUIManager */;
-			targetProxy = 769680062A93641CCF9AACBB30BB3CDA /* PBXContainerItemProxy */;
-		};
-		B11CA58F66EEAE763CF56A2C6748DB47 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSPullToRefresh;
-			target = 82F977B2493B989A9D13FABFD6A0FB66 /* SSPullToRefresh */;
-			targetProxy = 5A9D5C52B6D116ACB6F264FB7A9784D4 /* PBXContainerItemProxy */;
+			name = KRActivityIndicatorView;
+			target = 4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */;
+			targetProxy = 026A9169189F0580A8D74C945718B540 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2A1CAFC9052E095CE5C639A34FA3D077 /* Release */ = {
+		027C1E116293CE8C469279B8C6FE9A83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D6EFF6E6051B32917B8EA134B758EC9 /* PaginationUIManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PaginationUIManager/PaginationUIManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PaginationUIManager/PaginationUIManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PaginationUIManager/PaginationUIManager.modulemap";
-				PRODUCT_MODULE_NAME = PaginationUIManager;
-				PRODUCT_NAME = PaginationUIManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		35C116F4C2101D2A35B5A915C6B8DF70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58EEF7B228F8E297B8F562E4288E5B7C /* Pods-PaginationUIManager-Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PaginationUIManager-Example/Pods-PaginationUIManager-Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PaginationUIManager-Example/Pods-PaginationUIManager-Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		73EE1185CF3934166B724D461EE21377 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81F9483D7EDB755CA961F2BE86885279 /* SSPullToRefresh.xcconfig */;
+			baseConfigurationReference = 43C61247FB9E4A298117C37997225F2A /* SSPullToRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -562,7 +602,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -570,7 +610,7 @@
 			};
 			name = Release;
 		};
-		7E21DC420BFEC8210A03DEC4A2F34DF0 /* Debug */ = {
+		24FC4F8BA57C581C70A6FB2F2A664AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B55C43B990E6FAB106596F790F3E69B /* Pods-PaginationUIManager-Example.debug.xcconfig */;
 			buildSettings = {
@@ -602,6 +642,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		4D1AB6C23E7F3FEC2162E1811BB04F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C61247FB9E4A298117C37997225F2A /* SSPullToRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSPullToRefresh/SSPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSPullToRefresh/SSPullToRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSPullToRefresh/SSPullToRefresh.modulemap";
+				PRODUCT_MODULE_NAME = SSPullToRefresh;
+				PRODUCT_NAME = SSPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E5F872B42DCA9ECB9C575D67D7825C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6EFF6E6051B32917B8EA134B758EC9 /* PaginationUIManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PaginationUIManager/PaginationUIManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PaginationUIManager/PaginationUIManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PaginationUIManager/PaginationUIManager.modulemap";
+				PRODUCT_MODULE_NAME = PaginationUIManager;
+				PRODUCT_NAME = PaginationUIManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -656,7 +759,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -726,10 +830,11 @@
 			};
 			name = Debug;
 		};
-		98E9394E43E0BC6BC23F90C3DEB569EF /* Debug */ = {
+		952A92E590BEC0EE00493DA3C8B0D89D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81F9483D7EDB755CA961F2BE86885279 /* SSPullToRefresh.xcconfig */;
+			baseConfigurationReference = 58EEF7B228F8E297B8F562E4288E5B7C /* Pods-PaginationUIManager-Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -739,25 +844,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SSPullToRefresh/SSPullToRefresh-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SSPullToRefresh/SSPullToRefresh-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaginationUIManager-Example/Pods-PaginationUIManager-Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SSPullToRefresh/SSPullToRefresh.modulemap";
-				PRODUCT_MODULE_NAME = SSPullToRefresh;
-				PRODUCT_NAME = SSPullToRefresh;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaginationUIManager-Example/Pods-PaginationUIManager-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		D8ED71458FA0372A63FE52F9C5D4B3BA /* Debug */ = {
+		D2D657E1BF2733D19CCD7FD2325FF2F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D6EFF6E6051B32917B8EA134B758EC9 /* PaginationUIManager.xcconfig */;
 			buildSettings = {
@@ -781,7 +888,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -789,14 +895,77 @@
 			};
 			name = Debug;
 		};
+		DC53479E7FD139CE81BF81C816558AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF20E20ACD626B352A8BF7EEC674F18 /* KRActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = KRActivityIndicatorView;
+				PRODUCT_NAME = KRActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E792A2BE5511193ACF6660617DAF3968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF20E20ACD626B352A8BF7EEC674F18 /* KRActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = KRActivityIndicatorView;
+				PRODUCT_NAME = KRActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		0B3464352314F6531C94707C212C67CE /* Build configuration list for PBXNativeTarget "PaginationUIManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8ED71458FA0372A63FE52F9C5D4B3BA /* Debug */,
-				2A1CAFC9052E095CE5C639A34FA3D077 /* Release */,
+				D2D657E1BF2733D19CCD7FD2325FF2F0 /* Debug */,
+				4E5F872B42DCA9ECB9C575D67D7825C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -810,20 +979,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5847A5B2D4A33F808545FBDB626B3E0E /* Build configuration list for PBXNativeTarget "Pods-PaginationUIManager-Example" */ = {
+		62DB6E9D6FF2B4DFA16ECAC498E416C4 /* Build configuration list for PBXNativeTarget "SSPullToRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E21DC420BFEC8210A03DEC4A2F34DF0 /* Debug */,
-				35C116F4C2101D2A35B5A915C6B8DF70 /* Release */,
+				4D1AB6C23E7F3FEC2162E1811BB04F14 /* Debug */,
+				027C1E116293CE8C469279B8C6FE9A83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62DB6E9D6FF2B4DFA16ECAC498E416C4 /* Build configuration list for PBXNativeTarget "SSPullToRefresh" */ = {
+		8682F0722472CE2AF5A0A6F635D06841 /* Build configuration list for PBXNativeTarget "KRActivityIndicatorView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98E9394E43E0BC6BC23F90C3DEB569EF /* Debug */,
-				73EE1185CF3934166B724D461EE21377 /* Release */,
+				DC53479E7FD139CE81BF81C816558AA2 /* Debug */,
+				E792A2BE5511193ACF6660617DAF3968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE40C1A5E8DFEC451C7D6CEE9EB03A7E /* Build configuration list for PBXNativeTarget "Pods-PaginationUIManager-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FC4F8BA57C581C70A6FB2F2A664AA3 /* Debug */,
+				952A92E590BEC0EE00493DA3C8B0D89D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

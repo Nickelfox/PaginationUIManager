@@ -7,4 +7,5 @@ use_frameworks!
 
 target 'PaginationUIManager-Example' do
 	pod 'PaginationUIManager', :path => '../'
+  pod 'KRActivityIndicatorView' , '~> 3.0.1'
 end

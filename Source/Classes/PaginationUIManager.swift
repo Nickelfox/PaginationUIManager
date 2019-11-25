@@ -17,7 +17,7 @@ public protocol PaginationUIManagerDelegate {
 public enum PullToRefreshType {
 	case none
 	case basic
-	case custom(PullToRefreshContentView)
+    case custom(top: PullToRefreshContentView?, bottom: UIView?)
 }
 
 public class PaginationUIManager: NSObject {
@@ -26,6 +26,7 @@ public class PaginationUIManager: NSObject {
 	fileprivate var bottomLoader: UIView?
 	fileprivate var isObservingKeyPath: Bool = false
 	fileprivate var pullToRefreshView: PullToRefreshView?
+    fileprivate var bottomLoaderView: UIView?
 	
 	public var delegate: PaginationUIManagerDelegate?
 	
@@ -66,18 +67,28 @@ public class PaginationUIManager: NSObject {
 
 extension PaginationUIManager {
 	fileprivate func setupPullToRefresh() {
-		switch self.pullToRefreshType {
-		case .none:
-			self.removeRefreshControl()
-			self.removeCustomPullToRefreshView()
-		case .basic:
-			self.removeCustomPullToRefreshView()
-			self.addRefreshControl()
-		case .custom(let view):
-			self.removeRefreshControl()
-			self.addCustomPullToRefreshView(view)
-		}
+        setRefreshControllAccording(toTheType: self.pullToRefreshType)
 	}
+    
+    fileprivate func setRefreshControllAccording(toTheType type: PullToRefreshType) {
+        switch type {
+        case .none:
+            self.removeRefreshControl()
+            self.removeCustomPullToRefreshView()
+        case .basic:
+            self.removeCustomPullToRefreshView()
+            self.addRefreshControl()
+        case .custom(let topView, let bottomView):
+            if let topView = topView {
+                self.removeRefreshControl()
+                self.addCustomPullToRefreshView(topView)
+            } else {
+                setRefreshControllAccording(toTheType: .none)
+            }
+            
+            self.bottomLoaderView = bottomView
+        }
+    }
 	
 	fileprivate func addRefreshControl() {
 		self.refreshControl = UIRefreshControl()
@@ -126,7 +137,7 @@ extension PaginationUIManager {
 			this.endRefreshing()
 			if hasMoreData {
 				this.addScrollViewOffsetObserver()
-				this.addBottomLoader()
+                this.addBottomLoader(fromView: self?.bottomLoaderView)
 			}
 			completion()
 		})
@@ -139,19 +150,40 @@ extension PaginationUIManager {
 }
 
 extension PaginationUIManager {
-	fileprivate func addBottomLoader() {
+    fileprivate func addBottomLoader(fromView bottomView: UIView?) {
 		guard let scrollView = self.scrollView else { return }
-		let view = UIView()
-		view.frame.size = CGSize(width: scrollView.frame.width, height: 60)
-		view.frame.origin = CGPoint(x: 0, y: scrollView.contentSize.height)
-		view.backgroundColor = UIColor.clear
-		let activity = UIActivityIndicatorView(style: .gray)
-		activity.frame = view.bounds
-		activity.startAnimating()
-		view.addSubview(activity)
-		self.bottomLoader = view
-		scrollView.contentInset.bottom = view.frame.height
+        
+        var bottomLoaderView: UIView?
+        if let bottomView = bottomView {
+            bottomView.frame = getRectForBottomLoader(inScrollView: scrollView)
+            bottomLoaderView = bottomView
+        } else {
+            bottomLoaderView = getDefaultBottomLoader(inScrollView: scrollView)
+        }
+        
+		self.bottomLoader = bottomLoaderView
+        scrollView.contentInset.bottom = bottomLoaderView?.frame.height ?? 0
 	}
+    
+    fileprivate func getDefaultBottomLoader(inScrollView scrollView: UIScrollView) -> UIView {
+        
+        let view = UIView()        
+        view.frame = getRectForBottomLoader(inScrollView: scrollView)
+        view.backgroundColor = UIColor.clear
+        let activity = UIActivityIndicatorView(style: .gray)
+        activity.frame = view.bounds
+        activity.startAnimating()
+        view.addSubview(activity)
+        
+        return view
+    }
+    
+    fileprivate func getRectForBottomLoader(inScrollView scrollView: UIScrollView) -> CGRect {
+        let size = CGSize(width: scrollView.frame.width, height: 60)
+        let origin = CGPoint(x: 0, y: scrollView.contentSize.height)
+        
+        return CGRect(origin: origin, size: size)
+    }
 	
 	fileprivate func showBottomLoader() {
 		guard let scrollView = self.scrollView, let loader = self.bottomLoader else { return }
