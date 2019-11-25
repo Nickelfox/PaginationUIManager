@@ -30,12 +30,12 @@ class ViewController: UIViewController {
 	}
 	
 	fileprivate func setupPagination() {
-		paginationUIManager = PaginationUIManager(scrollView: self.tableView, pullToRefreshType: .custom(RefreshView.newInstance))
+        paginationUIManager = PaginationUIManager(scrollView: self.tableView, pullToRefreshType: .custom(top: RefreshView.newInstance, bottom: PaginationBottomView()))
 		paginationUIManager?.delegate = self
 	}
 	
 	fileprivate func fetchItems() {
-		paginationUIManager?.load { _ in
+		paginationUIManager?.load { 
 			
 		}
 	}
