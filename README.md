@@ -23,7 +23,7 @@ If you wish to integrate PaginationUIManager in your project, the make following
     source 'https://github.com/Nickelfox/PaginationUIManager.git'
     platform :ios, '9.0'
     use_frameworks!
-    pod 'PaginationUIManager', '~> 0.1.0'
+    pod 'PaginationUIManager', '~> 0.2.1'
 After saving `Podfile`. Run following command:
 
     pod install
