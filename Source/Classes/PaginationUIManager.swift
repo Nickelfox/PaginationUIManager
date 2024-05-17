@@ -35,12 +35,12 @@ public class PaginationUIManager: NSObject {
             self.setupPullToRefresh()
         }
     }
-    fileprivate var bottomLoaderStyle: UIActivityIndicatorView.Style = .white
+    fileprivate var bottomLoaderStyle: UIActivityIndicatorView.Style = .medium
     
     var isLoading = false
     var hasMoreDataToLoad = false
     
-    public init(scrollView: UIScrollView, pullToRefreshType: PullToRefreshType = .basic, bottomLoaderStyle: UIActivityIndicatorView.Style) {
+    public init(scrollView: UIScrollView, pullToRefreshType: PullToRefreshType = .basic, bottomLoaderStyle: UIActivityIndicatorView.Style = .medium) {
         self.scrollView = scrollView
         self.pullToRefreshType = pullToRefreshType
         self.bottomLoaderStyle = bottomLoaderStyle
