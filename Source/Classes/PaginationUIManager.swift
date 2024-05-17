@@ -35,13 +35,15 @@ public class PaginationUIManager: NSObject {
             self.setupPullToRefresh()
         }
     }
+    fileprivate var bottomLoaderStyle: UIActivityIndicatorView.Style = .white
     
     var isLoading = false
     var hasMoreDataToLoad = false
     
-    public init(scrollView: UIScrollView, pullToRefreshType: PullToRefreshType = .basic) {
+    public init(scrollView: UIScrollView, pullToRefreshType: PullToRefreshType = .basic, bottomLoaderStyle: UIActivityIndicatorView.Style) {
         self.scrollView = scrollView
         self.pullToRefreshType = pullToRefreshType
+        self.bottomLoaderStyle = bottomLoaderStyle
         super.init()
         self.setupPullToRefresh()
     }
@@ -147,7 +149,7 @@ extension PaginationUIManager {
         view.frame.size = CGSize(width: scrollView.frame.width, height: 60)
         view.frame.origin = CGPoint(x: 0, y: scrollView.contentSize.height)
         view.backgroundColor = UIColor.clear
-        let activity = UIActivityIndicatorView(style: .gray)
+        let activity = UIActivityIndicatorView(style: self.bottomLoaderStyle)
         activity.frame = view.bounds
         activity.startAnimating()
         view.addSubview(activity)
